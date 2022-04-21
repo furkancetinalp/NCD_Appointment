@@ -14,7 +14,13 @@ The users can delete their records.
 
 ### USAGE
 
-#### 1.CLONE
+##### 1) Clone
 **`git clone https://github.com/furkancetinalp/NCD_Appointment.git`**
+
+##### 2) Run 'yarn'
+**`yarn`**
+
+##### 3) Run 'yarn dev'
+**`yarn dev`**
 
 
