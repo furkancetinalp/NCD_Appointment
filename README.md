@@ -34,7 +34,7 @@ After running 'yarn dev', COPY the highlighted object(Account ID)
 
 ### FUNCTIONS
 
-##### appoint(name:string,age:32,day:u32)
+### appoint(name:string,age:32,day:u32)
 Takes 3 parameters. 
 Used for registration. 
 Returns a string that validates the registration.
