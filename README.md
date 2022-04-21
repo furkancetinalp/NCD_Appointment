@@ -41,7 +41,7 @@ Takes 3 parameters.
 Used for registration. 
 Returns a string that validates the registration.
 
-**`near call $CONTRACT appoint '{"name":"Your-name","Your-age":30,"day":Selected-day}' --accountId YOURtestnetAccount`**
+**`near call $CONTRACT appoint '{"name":"Your-name","age":Your-age,"day":Selected-day}' --accountId YOURtestnetAccount`**
 
 Example usage:  near call $CONTRACT appoint '{"name":"Tom","age":30,"day":4}' --accountId fctt.testnet
 
