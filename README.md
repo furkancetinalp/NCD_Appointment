@@ -44,7 +44,7 @@ near call **`$CONTRACT appoint '{"name":"Your-name","Your-age":30,"day":Selected
 Example usage:  near call $CONTRACT appoint '{"name":"Tom","age":30,"day":4}' --accountId fctt.testnet
 
 
-##### info()
+### info()
 Takes no parameters
 Used for getting information about appointment details.
 Returns a class with components
@@ -54,7 +54,7 @@ near call $CONTRACT information --accountId YOURtestnetAccount
 Example usage: **`near call $CONTRACT information --accountId fctt.testnet`**
 
 
-##### changeDay(day:string)
+### changeDay(day:string)
 Takes 1 parameter
 Used for changing the appointment date of the user
 Returns a class with components
@@ -64,7 +64,7 @@ near call $CONTRACT changeDay '{"day":New-Day}' --accountId YOURtestnetAccount
 Example usage: **`near call $CONTRACT changeDay '{"day":24}' --accountId fctt.testnet`**
 
 
-##### delete()
+### delete()
 Takes no parameters
 Used for deleting the appointment info
 
