@@ -1,5 +1,7 @@
 #                                                 NEAR CERTIFIED DEVELOPER PROGRAM 
 
+LOOM VIDEO : https://loom.com/share/6457f1addc764e95967796e1b9d2ff3a
+
 ## APPOINTMENT APPLICATION
 Appointment application will allow people to register in May.
 #### There are some conditions in order to register:
