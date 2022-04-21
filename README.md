@@ -35,39 +35,39 @@ After running 'yarn dev', COPY the highlighted object(Account ID)
 ### FUNCTIONS
 
 ##### appoint(name:string,age:32,day:u32)
-Takes 3 parameters
-Used for registration
+Takes 3 parameters. 
+Used for registration. 
 Returns a string that validates the registration.
 
-near call **`$CONTRACT appoint '{"name":"Your-name","Your-age":30,"day":Selected-day}' --accountId YOURtestnetAccount`**
+**`near call $CONTRACT appoint '{"name":"Your-name","Your-age":30,"day":Selected-day}' --accountId YOURtestnetAccount`**
 
 Example usage:  near call $CONTRACT appoint '{"name":"Tom","age":30,"day":4}' --accountId fctt.testnet
 
 
 ### info()
-Takes no parameters
+Takes no parameters. 
 Used for getting information about appointment details.
-Returns a class with components
+Returns a class with components. 
 
-near call $CONTRACT information --accountId YOURtestnetAccount
+**`near call $CONTRACT information --accountId YOURtestnetAccount`**
 
-Example usage: **`near call $CONTRACT information --accountId fctt.testnet`**
+Example usage: near call $CONTRACT information --accountId fctt.testnet
 
 
 ### changeDay(day:string)
-Takes 1 parameter
-Used for changing the appointment date of the user
-Returns a class with components
+Takes 1 parameter.
+Used for changing the appointment date of the user. 
+Returns a class with components.
 
-near call $CONTRACT changeDay '{"day":New-Day}' --accountId YOURtestnetAccount
+**`near call $CONTRACT changeDay '{"day":New-Day}' --accountId YOURtestnetAccount`**
 
-Example usage: **`near call $CONTRACT changeDay '{"day":24}' --accountId fctt.testnet`**
+Example usage: near call $CONTRACT changeDay '{"day":24}' --accountId fctt.testnet
 
 
 ### delete()
 Takes no parameters
 Used for deleting the appointment info
 
-near call $CONTRACT del --accountId YOURtestnetAccount
+**`near call $CONTRACT del --accountId YOURtestnetAccount`**
 
-Example usage: **`near call $CONTRACT del --accountId fctt.testnet`**
+Example usage: near call $CONTRACT del --accountId fctt.testnet
