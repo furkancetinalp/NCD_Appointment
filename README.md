@@ -28,6 +28,7 @@ After running 'yarn dev', copy the highlighted object(Account ID)
 
 #### 4) Set export function
 **`export CONTRACT=<PasteHere>`**
+
 ![Ekran Görüntüsü (129)](https://user-images.githubusercontent.com/99509540/164364173-3ad69a60-7397-4c9f-970a-0eac2f74e093.png)
 
 
