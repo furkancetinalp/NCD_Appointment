@@ -9,7 +9,7 @@ Age, a valid day selection.
 Each account can only register for one day.
 No accounts can be registered for same day.
 
-The users can change their appointment days if the requested day is valid. Otherwise, program will not allow it.
+The users can change their appointment days if the requested day is valid and available. Otherwise, program will not allow it.
 The users can see details about their appointment days.
 The users can delete their records.
 
